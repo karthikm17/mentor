@@ -1,0 +1,429 @@
+* {
+  box-sizing: border-box;
+ 
+}
+ section{
+  padding: 60px 0;
+  overflow: hidden;
+}
+  
+/* HEADER */
+
+
+#header .logo a{
+color: #5fcf80;
+  font-size: 30px;
+text-decoration:none;
+font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.get-started-btn {
+  margin-left: 22px;
+  background: #5fcf80;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration:none;
+}
+
+ #nav ul li a {
+color:#5fcf80;
+}
+
+
+
+#hero {
+  width: 100%;
+  height: 80vh;
+  background: url("hero-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.button{
+
+	
+ font-size:14px;
+  background-color: ;
+  border:none;
+  height:40px;
+  border-radius:50px;
+  margin:4px;
+  padding: 0px 0px;
+  text-align: right;
+  text-decoration:none;
+  padding:8px;
+  }
+  
+  /*  about */
+  #about ul {
+	  list-style-type:none;
+  }
+  
+  #about ul i{
+  color: #5fcf80;
+  
+  }
+  
+  #about ul li{
+	  padding-bottom:10px;
+  }
+  
+  
+   /*  about */
+   
+   
+   
+   /*  count */
+  
+  #count{
+	  padding:30px 0;
+  }
+  
+  #count .counter span{
+	  color: #5fcf80;
+	  font-size:45px;
+	  font-weight:600;
+  }
+  #count .counter p{
+	   margin: 0 0 20px 0;
+	  color:black;
+	  
+  }
+  .section-bg{
+	  
+	   background-color: #f6f7f6;
+  }
+ 
+  
+  /* card section */
+  
+  #why .content {
+  padding: 30px;
+  background: #5fcf80;
+  border-radius: 4px;
+  color: white;
+}
+  #why .content h3{
+	  font-size:38px;
+	  font-weight:700;
+	  padding-bottom:20px;
+  }
+  
+  #why .content p{
+	  
+	padding-bottom:20px;  
+  }
+  
+  #why .content a{
+	  text-decoration:none;
+  }
+  
+  #why .content .more-btn{
+	  
+	  color:white;
+	  border-radius:50px;
+  }
+  
+  #why .content .more-btn:hover{
+	  color:white;
+  background-color:#5fcf80;
+  }
+  
+  
+  
+  #why .box .icon-box{
+	  text-align:center;
+	  background: #fff;
+  padding: 40px 30px;
+  width: 100%;
+  border: 1px solid #eef0ef;
+	  
+  }
+  #why .box .icon-box i {
+	 font-size: 32px;
+  padding: 18px;
+  color: #5fcf80;
+  margin-bottom: 30px;
+  background: #ecf9f0;
+  border-radius: 50px;
+  padding-bottom:2px;
+  }
+  
+  #why .box .icon-box h4{
+	font-size:20px;
+	font-weight:700;
+	margin:0 0 30px 0 ;
+  }
+  
+  /* card section */  
+  
+  
+  
+  /* feature section */  
+  
+ 
+#feature .icon-box{
+
+	display:flex;
+	align-items:center;
+	 border: 1px solid #eef0ef;
+	 padding:20px;
+	 
+}
+#feature .icon-box i{
+	padding-right:20px;
+font-size:30px;
+line-height:1;
+	
+}
+
+#feature .icon-box h3{
+   font-weight:700;
+	line-height: 1;
+  font-size: 16px;
+}
+
+
+ #feature .icon-box a{
+	  text-decoration:none;
+	  color: #37423b;
+  }
+  
+#feature .icon-box :hover{
+	color:#5fcf80;
+}  
+    
+/* feature section */  
+  
+  .section-title h2{
+	  
+	    font-size: 14px;
+  font-weight: 700;
+  letter-spacing:2px;
+	  color: #aaaaaa;
+text-transform:uppercase;	  
+  }
+  
+  .section-title p{
+	  font-size:30px;
+	  font-weight:700;
+	  text-transform:uppercase;
+  }
+/* feature section */ 
+
+/* course section */ 
+
+ .h {
+  font-size: 14px;
+  background: #5fcf80;
+  padding: 7px 14px;
+  color: #fff;
+  margin: 0;
+}
+
+.price {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #37423b;
+}
+
+
+
+.trainer .trainer-profile img {
+  max-width: 50px;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* course section */ 
+
+
+
+  
+  
+  
+  /* trainer section */ 
+  
+  .trainer .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #eef0ef;
+}
+  
+  
+.trainer .member img {
+  margin: -1px -1px 30px -1px;
+}
+
+.trainer .member .member-content {
+  padding: 0 20px 30px 20px;
+}
+
+.trainer .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.trainer .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.trainer .member p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+}
+
+.trainer .member .social {
+  margin-top: 15px;
+}
+
+.trainer .member .social a {
+  color: #7e9486;
+  transition: 0.3s;
+}
+
+.trainer .member .social a:hover {
+  color: #5fcf80;
+}
+
+.trainer .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+ /* trainer section */
+  
+  
+  
+/* footer section */
+  
+  #footer {
+  color: #37423b;
+  font-size: 14px;
+  background: #eef0ef;
+}
+
+  
+#footer .footer-links ul{
+	list-style-type:none;
+}  
+  #footer .footer-links a:hover{
+	   color: #5fcf80;
+  }
+  
+  
+  #footer .footer-links ul i{
+	   color: #5fcf80;
+	    line-height:2.5;
+  }
+  
+  #footer .footer-links a{
+	text-decoration:none;
+	 color: #777777;
+	
+}  
+
+#footer .news form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  text-align: left;
+  border: 1px solid #e0e5e2;
+}
+
+  #footer .news form input[type=email] {
+  border: 0;
+  padding: 4px 8px;
+  width: 220px;
+}
+
+#footer .news form input[type=submit] {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px 2px 20px;
+  background: #5fcf80;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+  
+ #footer .credits a{
+	 
+	 text-decoration:none;
+	color: #5fcf80;
+
+ } 
+  
+  #footer .social-links i{
+	  color:white;
+	  
+	  
+  }
+  
+ #footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #5fcf80;
+  color: white;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .social-links a:hover {
+  background: #3ac162;
+  color: white;
+  text-decoration: none;
+}
+  
+/* footer section */
+  
+  
+  
+  
+  
+  
